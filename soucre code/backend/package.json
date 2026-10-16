@@ -1,0 +1,22 @@
+{
+  "name": "salary-enroll-backend",
+  "version": "1.0.0",
+  "description": "Backend API with C++ Engine IPC for Salary Enroll Pay System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/mongodb_e2e.test.js",
+    "test:mongo": "node tests/mongodb_e2e.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.8",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.24.5",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7"
+  }
+}
